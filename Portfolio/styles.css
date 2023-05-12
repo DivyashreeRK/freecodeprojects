@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #be3144;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 3;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+        justify-content: center;
+    }
+}
+
+.nav-list {
+    display: flex;
+    margin: 0 1rem;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: white
+}
+
+.nav-list a:hover {
+    background-color: rgb(37, 56, 92);
+}
+
+#welcome-section {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    background-color: rgb(43, 43, 44);
+    color: white;
+    font-size: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#welcome-section>p {
+    color: brown;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    margin-bottom: 0.10rem;
+    margin-top: 0;
+}
+
+.project-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#projects {
+    background-color: rgb(66, 62, 99);
+    padding: 10px;
+}
+
+#project-section {
+    width: 25%;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(43, 43, 44);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+#projects>h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+#project-section h1 {
+    color: bisque;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    background-color: rgb(43, 43, 44);
+}
+
+.contact-container h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.contact-container p {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.contact-link-container {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 1rem 2rem;
+}
+
+.contact-link-container a {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(43, 43, 44);
+    border-top: 4px solid #be3144;
+}
+
+.footer-container>p {
+    color: white;
+    margin: 1rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+.footer-container a {
+    color: blue;
+}
